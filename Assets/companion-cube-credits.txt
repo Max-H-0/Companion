@@ -1,0 +1,5 @@
+﻿From:    https://sketchfab.com/rippomadness
+Source:  https://sketchfab.com/3d-models/companion-cube-portal-2-version-b2ec84f08f774b6883dd24cc0658fa57
+License: https://creativecommons.org/licenses/by/4.0/
+
+I'm not using all the Textures so ig that counts as changes

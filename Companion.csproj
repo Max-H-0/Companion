@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\companion-cube" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\companion-cube" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ReferencedAssemblies\MelonLoader.dll" />
+    <Reference Include="ReferencedAssemblies\StellarModdingToolkit.dll" />
+    <Reference Include="ReferencedAssemblies\Ship.dll" />
+    <Reference Include="ReferencedAssemblies\Ship.Interface.dll" />
+    <Reference Include="ReferencedAssemblies\Items.Interface.dll" />
+    <Reference Include="ReferencedAssemblies\UnityEngine.CoreModule.dll" />
+    <Reference Include="ReferencedAssemblies\UnityEngine.UIElementsModule.dll" />
+  </ItemGroup>
+
+</Project>
